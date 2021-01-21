@@ -1,0 +1,19 @@
+.senseiLogo {
+  color: #393e5b;
+  font-family: "AED", "sans";
+  font-style: normal;
+  font-weight: 800;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.landingText {
+  color: #393e5b;
+  font-family: "AED", "sans";
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 0em;
+  text-align: left;
+  line-height: 1.375 !important;
+}
