@@ -23,3 +23,8 @@ a {
   font-family: AED;
   src: url("/aed.ttf");
 }
+
+.card-sub-title {
+  color: white !important;
+  font-size: "24px" !important;
+}

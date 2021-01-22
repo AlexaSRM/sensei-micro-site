@@ -2,6 +2,7 @@ import Head from "next/head";
 import Landing from "../components/Landing/Landing";
 import Navbar from "../components/Navbar/Navbar";
 import Sponsor from "../components/Sponsor/Sponsor";
+import Timeline from "../components/Timeline/Timeline";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -13,10 +14,9 @@ export default function Home() {
       </Head>
 
       <Navbar />
-      <main
-        className={["h-screen", "w-full", "md:w-10/12", "mx-auto"].join(" ")}
-      >
+      <main className="h-screen w-full">
         <Landing />
+        <Timeline />
         <Sponsor />
       </main>
     </div>

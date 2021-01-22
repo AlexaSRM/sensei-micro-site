@@ -8,7 +8,7 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html style={{ scrollBehavior: "smooth" }}>
         <Head />
         <body style={{ position: "relative" }}>
           <Main />

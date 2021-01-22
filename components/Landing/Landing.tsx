@@ -3,7 +3,7 @@ import styles from "./Landing.module.css";
 
 export default function Landing() {
   return (
-    <div className="w-full md:grid md:grid-cols-3 align-middle h-full">
+    <div className="w-full md:w-10/12 mx-auto md:grid md:grid-cols-3 align-middle h-full">
       <div className="md:col-span-2 space-y-9 mt-28 md:my-auto" id="landing">
         <img src="/sensei_hat.svg" className="inline-block" />{" "}
         <span
