@@ -3,7 +3,7 @@ import styles from "./Navbar.module.css";
 export default function Navbar() {
   return (
     <div
-      className="navbar flex sticky top-0 text-lg items-center pt-5 px-9 bg-white mx-0 w-full"
+      className="navbar flex sticky top-0 text-lg items-center pt-5 px-1 md:px-9 bg-white mx-0 w-full"
       style={{ zIndex: 99 }}
     >
       <p className="inline mr-auto text-3xl">

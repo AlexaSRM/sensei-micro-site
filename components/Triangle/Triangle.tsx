@@ -4,7 +4,7 @@ export default function Triangle() {
   return (
     <motion.img
       src="/triangle.svg"
-      className="hidden md:block w-full"
+      className="block w-1/2 md:w-full mx-auto"
       animate={{ rotate: 360 }}
       transition={{
         repeat: Infinity,
