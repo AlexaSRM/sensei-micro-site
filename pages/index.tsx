@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Landing from "../components/Landing/Landing";
 import Navbar from "../components/Navbar/Navbar";
+import Register from "../components/Register/Register";
 import Sponsor from "../components/Sponsor/Sponsor";
 import Timeline from "../components/Timeline/Timeline";
 import styles from "../styles/Home.module.css";
@@ -17,6 +18,7 @@ export default function Home() {
       <main className="h-screen w-full">
         <Landing />
         <Timeline />
+        <Register />
         <Sponsor />
       </main>
     </div>

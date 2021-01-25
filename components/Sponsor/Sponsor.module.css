@@ -1,0 +1,27 @@
+.titleHeading {
+    font-family: "AED", "sans";
+    font-style: normal;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0em;
+  }
+.sponsor{
+    font-family: "AED", "sans";
+    font-style: normal;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0em;
+}
+.sponsorText{
+    display: block;
+    height: 20%;
+}
+.sponsorImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80%;
+}
+.sponsorList{
+    float: left;
+}
