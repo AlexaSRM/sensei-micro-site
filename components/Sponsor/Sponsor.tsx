@@ -1,12 +1,11 @@
-import { Chrono } from "react-chrono";
 import styles from "./Sponsor.module.css";
 export default function Sponsor() {
-  let sponsors = [
-    {
-      image: "/seaport.jpeg",
-      name: "Seaport AI",
-      title: "Title Sponsor",
-    },
+  const seaport = {
+    image: "/eduNDI.png",
+    name: "Seaport AI",
+    title: "Title Sponsor",
+  };
+  const sponsors = [
     {
       image: "/grabon.png",
       name: "GrabOn",
@@ -39,8 +38,26 @@ export default function Sponsor() {
         >
           Sponsors
         </h1>
+        <div>
+          <div className={[styles.sponsorImage, ""].join(" ")}>
+            <div className="relative h-72 w-48 mx-auto">
+              <img
+                className="absolute w-auto my-auto mx-auto top-0 bottom-0 right-0 left-0"
+                src={seaport.image}
+                alt={seaport.name}
+              />
+            </div>
+
+            <div className={styles.sponsorText}>
+              <p className="mx-auto font-semibold text-4xl text-center">
+                {seaport.name}
+              </p>
+              <p className="mx-auto text-2xl text-center">{seaport.title}</p>
+            </div>
+          </div>
+        </div>
         <div
-          className="grid grid-cols-1 gap-6 sm:grid-cols-5 gap-4 mb-20"
+          className="grid grid-cols-1 gap-6 sm:grid-cols-4 gap-4 mb-20"
           style={{ marginLeft: 0 }}
         >
           {sponsors.map((listItem) => (
@@ -58,10 +75,10 @@ export default function Sponsor() {
                 </div>
 
                 <div className={styles.sponsorText}>
-                  <p className="mx-auto font-semibold text-4xl text-center">
+                  <p className="mx-auto font-semibold text-3xl text-center">
                     {listItem.name}
                   </p>
-                  <p className="mx-auto text-2xl text-center">
+                  <p className="mx-auto text-xl text-center">
                     {listItem.title}
                   </p>
                 </div>
