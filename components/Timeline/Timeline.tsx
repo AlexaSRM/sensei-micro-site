@@ -4,44 +4,30 @@ import styles from "./Timeline.module.css";
 export default function Timeline() {
   let itemsList1 = [
     {
-      cardTitle: "May 2021",
+      cardTitle: "1st February 2021",
       cardSubtitle: "JavaScript Session",
     },
     {
-      cardTitle: "May 2021",
-      cardSubtitle: "Node.js Session Part 1",
+      cardTitle: "3rd February 2021",
+      cardSubtitle: "Introducing Node.js",
     },
     {
-      cardTitle: "May 2021",
-      cardSubtitle: "Node.js Session Part 2",
+      cardTitle: "5th February 2021",
+      cardSubtitle: "Advanced concepts of Node.js",
     },
   ];
   let itemsList2 = [
     {
-      cardTitle: "May 2021",
-      cardSubtitle: "JavaScript Session",
+      cardTitle: "7th February 2021",
+      cardSubtitle: "Intro to AWS",
     },
     {
-      cardTitle: "May 2021",
-      cardSubtitle: "Node.js Session Part 1",
+      cardTitle: "9th February 2021",
+      cardSubtitle: "Advanced Concepts of AWS",
     },
     {
-      cardTitle: "May 2021",
-      cardSubtitle: "Node.js Session Part 2",
-    },
-  ];
-  let itemsList3 = [
-    {
-      cardTitle: "May 2021",
-      cardSubtitle: "JavaScript Session",
-    },
-    {
-      cardTitle: "May 2021",
-      cardSubtitle: "Node.js Session Part 1",
-    },
-    {
-      cardTitle: "May 2021",
-      cardSubtitle: "Node.js Session Part 2",
+      cardTitle: "11th February 2021",
+      cardSubtitle: "Discovering Alexa Skills",
     },
   ];
   return (
@@ -55,7 +41,7 @@ export default function Timeline() {
         >
           Timeline
         </h1>
-        <div className="grid grid-cols-3 w-full space-x-5 pb-16">
+        <div className="grid grid-cols-2 w-full space-x-5 pb-16">
           <div className="col-span-3 md:col-span-1">
             <Chrono
               items={itemsList1}
@@ -87,20 +73,7 @@ export default function Timeline() {
               }}
             />
           </div>
-          <div className="col-span-3 md:col-span-1" style={{ marginLeft: 0 }}>
-            <Chrono
-              items={itemsList3}
-              mode="VERTICAL"
-              disableNavOnKey
-              hideControls
-              theme={{
-                primary: "#FB905D",
-                secondary: "#FB905D",
-                cardBgColor: "#393E5B",
-                cardForeColor: "white",
-              }}
-            />
-          </div>
+          
         </div>
       </div>
     </div>
