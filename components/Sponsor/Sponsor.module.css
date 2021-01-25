@@ -1,27 +1,26 @@
 .titleHeading {
-    font-family: "AED", "sans";
-    font-style: normal;
-    font-weight: 800;
-    line-height: 68px;
-    letter-spacing: 0em;
-  }
-.sponsor{
-    font-family: "AED", "sans";
-    font-style: normal;
-    font-weight: 800;
-    line-height: 68px;
-    letter-spacing: 0em;
+  font-family: "AED", "sans";
+  font-style: normal;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0em;
 }
-.sponsorText{
-    display: block;
-    height: 20%;
+.sponsor {
+  font-family: "AED", "sans";
+  font-style: normal;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0em;
 }
-.sponsorImage{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 80%;
+.sponsorText {
+  margin-top: 10px;
+  display: block;
 }
-.sponsorList{
-    float: left;
+.sponsorImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sponsorList {
+  float: left;
 }
