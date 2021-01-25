@@ -4,6 +4,9 @@ import Navbar from "../components/Navbar/Navbar";
 import Sponsor from "../components/Sponsor/Sponsor";
 import Timeline from "../components/Timeline/Timeline";
 import styles from "../styles/Home.module.css";
+import dynamic from 'next/dynamic';
+
+const Register = dynamic(() => import('../components/Register/Register'), {ssr: false})
 
 export default function Home() {
   return (
@@ -17,6 +20,7 @@ export default function Home() {
       <main className="h-screen w-full">
         <Landing />
         <Timeline />
+        <Register />
         <Sponsor />
       </main>
     </div>

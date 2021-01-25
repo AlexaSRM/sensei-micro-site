@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@typeform/embed": "^0.34.0",
     "autoprefixer": "^10.2.3",
     "framer-motion": "^3.2.1",
     "next": "10.0.5",

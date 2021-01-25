@@ -26,7 +26,7 @@ export default function Navbar() {
           Sponsors
         </a>
       </p>
-      <a href="https://google.co.in" className="hidden md:block">
+      <a href="#register" className="hidden md:block">
         <span
           className="md:ml-7 p-3 rounded-lg font-bold text-white text-sm md:text-base"
           style={{ background: "#393E5B" }}
