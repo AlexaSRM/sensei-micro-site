@@ -16,6 +16,20 @@ export default function Home() {
       <Head>
         <title>Sensei | Alexa Dev SRM</title>
         <link rel="icon" href="/sensei_hat.ico" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@AlexaDevSRM" />
+        <meta name="twitter:creator" content="@AlexaDevSRM" />
+        <meta property="og:url" content="https://sensei.alexadevsrm.com" />
+        <meta property="og:title" content="Sensei" />
+        <meta
+          property="og:description"
+          content="Sensei, a flagship training program by Alexa Dev SRM"
+        />
+        <meta
+          property="og:image"
+          content="https://billboard.srmkzilla.net/api/blog?title=Sensei&subtitle=AlexaDevSRM&theme=dark"
+        />
+        <meta name="keywords" content="sensei,alexa,alexadevsrm,srm" />
       </Head>
 
       <Navbar />
