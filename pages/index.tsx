@@ -1,10 +1,12 @@
 import Head from "next/head";
 import Landing from "../components/Landing/Landing";
 import Navbar from "../components/Navbar/Navbar";
-import Register from "../components/Register/Register";
 import Sponsor from "../components/Sponsor/Sponsor";
 import Timeline from "../components/Timeline/Timeline";
 import styles from "../styles/Home.module.css";
+import dynamic from 'next/dynamic';
+
+const Register = dynamic(() => import('../components/Register/Register'), {ssr: false})
 
 export default function Home() {
   return (
