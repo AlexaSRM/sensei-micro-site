@@ -4,44 +4,44 @@ import styles from "./Timeline.module.css";
 export default function Timeline() {
   let itemsList1 = [
     {
-      cardTitle: "May 2021",
-      cardSubtitle: "JavaScript Session",
+      cardTitle: "1 February 2021",
+      cardSubtitle: "Hello JavaScript!",
     },
     {
-      cardTitle: "May 2021",
-      cardSubtitle: "Node.js Session Part 1",
+      cardTitle: "3 February 2021",
+      cardSubtitle: "What is Node.js?",
     },
     {
-      cardTitle: "May 2021",
-      cardSubtitle: "Node.js Session Part 2",
+      cardTitle: "5 February 2021",
+      cardSubtitle: "Deeper into Node.js",
     },
   ];
   let itemsList2 = [
     {
-      cardTitle: "May 2021",
-      cardSubtitle: "JavaScript Session",
+      cardTitle: "7 February 2021",
+      cardSubtitle: "Amazing AWS",
     },
     {
-      cardTitle: "May 2021",
-      cardSubtitle: "Node.js Session Part 1",
+      cardTitle: "9 February 2021",
+      cardSubtitle: "Advanced AWS",
     },
     {
-      cardTitle: "May 2021",
-      cardSubtitle: "Node.js Session Part 2",
+      cardTitle: "11 February 2021",
+      cardSubtitle: "Discovering Alexa Skills",
     },
   ];
   let itemsList3 = [
     {
-      cardTitle: "May 2021",
-      cardSubtitle: "JavaScript Session",
+      cardTitle: "February 2021 (Second Half)",
+      cardSubtitle: "Project I",
     },
     {
-      cardTitle: "May 2021",
-      cardSubtitle: "Node.js Session Part 1",
+      cardTitle: "March 2021 (First Half)",
+      cardSubtitle: "Project II",
     },
     {
-      cardTitle: "May 2021",
-      cardSubtitle: "Node.js Session Part 2",
+      cardTitle: "March 2021 (Second Half)",
+      cardSubtitle: "Project III",
     },
   ];
   return (
