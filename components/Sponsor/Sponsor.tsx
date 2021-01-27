@@ -17,8 +17,8 @@ export default function Sponsor() {
       title: "Ideation Partner",
     },
     {
-      image: "/tech_crawl.png",
-      name: "Tech Crawl",
+      image: "/tech_crawler.png",
+      name: "TechCrawler",
       title: "Publicity Partner",
     },
     {
