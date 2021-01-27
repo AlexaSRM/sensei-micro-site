@@ -19,7 +19,7 @@ export default function Sponsor() {
     {
       image: "/tech_crawl.png",
       name: "Tech Crawl",
-      title: "Media Partner",
+      title: "Publicity Partner",
     },
     {
       image: "/replit.svg",
