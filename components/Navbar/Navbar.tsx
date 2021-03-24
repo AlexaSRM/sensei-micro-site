@@ -26,12 +26,12 @@ export default function Navbar() {
           Sponsors
         </a>
       </p>
-      <a href="#register" className="hidden md:block">
+      <a href="#submit" className="hidden md:block">
         <span
           className="md:ml-7 p-3 rounded-lg font-bold text-white text-sm md:text-base"
           style={{ background: "#393E5B" }}
         >
-          Register Now!
+          Submit Task!
         </span>
       </a>
     </div>
