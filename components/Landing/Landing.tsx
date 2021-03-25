@@ -25,12 +25,12 @@ export default function Landing() {
           <br />A flagship training program
           <br />
           <br className="block md:hidden" />
-          <a href="#register">
+          <a href="#submit">
             <p
               className="inline p-4 mr-4 rounded-lg font-bold text-white text-sm md:text-2xl mt-12 md:mt-0 tracking-wide"
               style={{ width: "fit-content", backgroundColor: "#393E5B" }}
             >
-              Register Now
+              Submit Task
             </p>
           </a>
           <a href="http://community.alexadevsrm.com">
